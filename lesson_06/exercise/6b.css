@@ -1,0 +1,24 @@
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.headline{
+  font-family: Montserrat;
+  font-weight: bold;
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 8px;
+
+}
+
+.subheadline{
+  font-family: Montserrat;
+  text-align: center;
+
+}
+
+.underline{
+  text-decoration: underline;
+  cursor:pointer;
+}
