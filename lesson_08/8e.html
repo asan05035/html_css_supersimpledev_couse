@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .form_headline{
+      margin-top:0px;
+      margin-bottom:12px;
+      font-size: 30px;
+      font-family:sans-serif;
+      font-weight: lighter;
+    }
+
+    input {
+      display:block;
+      width:250px;
+      background-color: rgba(24, 24, 24, 0.095);
+      border:none;
+      padding-top:8px;
+      padding-bottom:8px;
+      padding-left:25px;
+      padding-right:25px;
+      /* border-style: solid; */
+      font-family: sans-serif ;
+      font-size: 12px;
+    }
+
+    .pickup{
+      margin-bottom: 10px;
+    }
+
+    
+    .request{
+      background-color: black;
+      color:white;
+      border:none;
+      padding:10px 16px;
+      margin-top:10px;
+      cursor:pointer;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .request:hover{
+      background-color: rgb(63, 63, 63);
+      
+     
+    }
+
+    .schedule{
+      background-color:rgb(178, 178, 178);
+      color:black;
+      border:none;
+      padding:10px 16px;
+      margin-top:10px;
+      margin-left:8px;
+      cursor:pointer;
+    }
+
+  </style>
+</head>
+<body>
+  <p class="form_headline">Request a ride now</p>
+  <input type="text" placeholder="Enter Pickup Location" class="pickup">
+  <input type="text" placeholder="Enter Destination Location" class="'destination">
+  <button class="request">Request Now</button>
+  <button class="schedule">Schedule later</button>
+</body>
+</html>
