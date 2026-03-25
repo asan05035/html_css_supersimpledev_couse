@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .shadow_button{
+      background-color: rgb(24, 164, 24);
+      border:none;
+      color:#FFFFFF;
+      border-radius: 10px;
+      padding-bottom: 10px;
+      padding-top:10px;
+      padding-left:16px;
+      padding-right:16px;
+      font-weight: bold;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.9);
+      cursor: pointer;
+    }
+
+    .shadow_button:hover{
+      background-color: rgb(32, 118, 32);
+
+    }
+
+    .shadow_button:active{
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      transform: translateY(2px);
+    }
+  </style>
+  <button class="shadow_button">
+    Shadow
+  </button>
+</body>
+</html>
